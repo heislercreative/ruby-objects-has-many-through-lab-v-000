@@ -14,4 +14,8 @@ class Genre
     self.songs.each {|song| song.artist}
   end
   
+  def add_song(song)
+    @songs = song
+  end
+  
 end
