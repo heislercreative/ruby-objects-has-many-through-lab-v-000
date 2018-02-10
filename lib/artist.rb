@@ -14,4 +14,8 @@ class Artist
     @songs << song
     song.artist = self
   end
+  
+  def genres
+    songs.each {|song| song.genre}
+  end
 end
