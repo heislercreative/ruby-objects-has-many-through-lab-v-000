@@ -14,4 +14,8 @@ class Doctor
     @appointments << appointment
   end
   
+  def patients
+    self.appointments.collect {|appt| appt.patient}
+  end
+  
 end
