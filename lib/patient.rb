@@ -16,7 +16,7 @@ class Patient
   end
   
   def doctors
-    self.
+    self.appointments
   end
   
 end
