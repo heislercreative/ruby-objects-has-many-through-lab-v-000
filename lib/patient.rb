@@ -3,5 +3,6 @@ class Patient
   
   def initialize(name, appointments)
   
+  end
   
 end
